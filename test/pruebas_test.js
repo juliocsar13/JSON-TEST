@@ -15,5 +15,21 @@ describe('TITULO PRINCIPAL', function(){
 	})
 
 	});
+	describe('library test', function(){
+		before(function () {
+			// body...
+		});
+		it('deberia sumar numeros', function(){
+			//hacer afirmaciones
+		});
+		it('should foobar', function (done){
+			setTimeout(function(){
+				//hace que se ejecute despues de un segundo  :v D: setTimeout
+				done();
+			},1000);
+			// body...
+		})
+
+	});
 
 });
